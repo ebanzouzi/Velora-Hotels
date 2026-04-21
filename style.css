@@ -21,11 +21,17 @@
 /* Pour que le scroll ne soit pas trop brute */
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
   background: var(--bg-main);
   color: var(--text-secondary);
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
 }
 
 /* Pour éviter que le navbar ne cache le titre des sections */
@@ -532,7 +538,6 @@ nav ul li a:hover {
   margin-top: 1rem;
 }
 
-
 .formulaire h2 {
   font-size: 3rem;
   color: var(--text-main);
@@ -615,8 +620,6 @@ textarea {
   background: var(--bg-main);
   border: 1px solid gold;
 }
-
-
 
 form input[type="radio"] {
   accent-color: gold;
@@ -1021,6 +1024,13 @@ footer .fourth p {
   body {
     overflow-x: hidden;
   }
+
+  .buttons {
+    /* flex-direction: column; */
+    margin-top: 1rem;
+    gap: 15px;
+  }
+
   .separation {
     height: 1800px;
   }
