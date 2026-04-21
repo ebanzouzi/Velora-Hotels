@@ -36,3 +36,7 @@ Ce projet a été réalisé dans le but de :
 👤 Auteur
 
 Emmanuel Saint Yves Michel BANZOUZI
+
+Démo du projet
+
+https://ebanzouzi.github.io/Velora-Hotels/
